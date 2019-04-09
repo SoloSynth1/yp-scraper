@@ -80,7 +80,7 @@ def get_companies(soup):
 def write_info(name, listings):
     for listing in listings:
         print(listing)
-        output_file.write(name + '"{}","{}","{}","{}","{}","{}"\n'.format(listing[0], listing[1], listing[2], listing[3], listing[4], listing[5]))
+        output_file.write(name + '"{}","{}","{}","{}","{}","{}","{}","{}"\n'.format(listing[0], listing[1], listing[2], listing[3], listing[4], listing[5], listing[6], listing[7]))
 
 if __name__ == "__main__":
     industries = load_subcats()
